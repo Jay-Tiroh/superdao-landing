@@ -5,7 +5,7 @@ const SocialLinks = () => {
     <div className="flex gap-4 justify-between w-full max-w-160">
       <Link
         href={"#"}
-        className="p-2 rounded-full  bg-blue/15 size-12 flex justify-center items-center cursor-pointer "
+        className="p-2 rounded-full  bg-blue/15 size-12 flex justify-center items-center cursor-pointer footer-item "
       >
         <Image
           src={"/assets/images/twitter.svg"}
@@ -17,7 +17,7 @@ const SocialLinks = () => {
       </Link>
       <Link
         href={"#"}
-        className="p-2 rounded-full  bg-indigo/15 size-12 flex justify-center items-center cursor-pointer "
+        className="p-2 rounded-full  bg-indigo/15 size-12 flex justify-center items-center cursor-pointer footer-item "
       >
         <Image
           src={"/assets/images/telegram.png"}
@@ -29,7 +29,7 @@ const SocialLinks = () => {
       </Link>
       <Link
         href={"#"}
-        className="p-2 rounded-full  bg-alt-pink/15 size-12 flex justify-center items-center cursor-pointer "
+        className="p-2 rounded-full  bg-alt-pink/15 size-12 flex justify-center items-center cursor-pointer footer-item "
       >
         <Image
           src={"/assets/images/youtube.png"}
@@ -41,7 +41,7 @@ const SocialLinks = () => {
       </Link>
       <Link
         href={"#"}
-        className="p-2 rounded-full  bg-alt-purple/15 size-12 flex justify-center items-center cursor-pointer "
+        className="p-2 rounded-full  bg-alt-purple/15 size-12 flex justify-center items-center cursor-pointer footer-item "
       >
         <Image
           src={"/assets/images/discord.png"}

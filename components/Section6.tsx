@@ -4,7 +4,7 @@ import Btn from "./Btn";
 
 const Section6 = () => {
   return (
-    <div className="text-center flex flex-col items-center gap-5 w-[90%] rounded-lg border-highlight-grey border max-w-130 m-auto p-5 bg-grey relative text-sm ">
+    <div className="sec6 text-center flex flex-col items-center gap-5 w-[90%] rounded-lg border-highlight-grey border max-w-130 m-auto p-5 bg-grey relative text-sm ">
       <Image
         src={"/assets/images/lights.svg"}
         width={500}

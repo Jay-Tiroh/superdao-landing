@@ -6,22 +6,23 @@ const Press = () => {
   return (
     <div className=" flex flex-col items-center gap-5  w-full p-5 max-w-210 m-auto">
       <div className="flex items-end justify-between w-full p-5">
-        <h2 className="text-3xl md:text-4xl text-center md:w-auto w-full flex items-start justify-center gap-3">
+        <h2 className="text-3xl md:text-4xl text-center md:w-auto w-full flex items-start justify-center gap-3 sec8-title">
           Press{" "}
           <Image
             src={"/assets/images/stars4.png"}
             width={30}
             height={30}
             alt="press"
+            className="star8"
           />
         </h2>
-        <div className="text-sm hidden md:flex gap-2 items-center text-grey2">
+        <div className="text-sm hidden md:flex gap-2 items-center text-grey2 sec8-title">
           See all <ArrowRight size={14} />
         </div>
       </div>
       <div className=" text-bg w-full grid p-5  gap-5 md:grid-cols-3 place-items-center items-stretch">
         {/* card 1 */}
-        <div className=" bg-alt-blue max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
+        <div className=" bg-alt-blue max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty  press-card">
           <div className="flex flex-col gap-2 mb-2">
             <Image
               src={"/assets/images/decrypt.svg"}
@@ -45,7 +46,7 @@ const Press = () => {
         </div>
 
         {/* card 2 */}
-        <div className=" bg-purple-light  max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
+        <div className=" bg-purple-light  max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty  press-card">
           <div className="flex flex-col gap-2 mb-2">
             <Image
               src={"/assets/images/blockworks.svg"}
@@ -68,7 +69,7 @@ const Press = () => {
         </div>
 
         {/* card 3 */}
-        <div className="bg-greenish-yellow max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
+        <div className="bg-greenish-yellow max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty  press-card">
           <div className="flex flex-col gap-2 mb-2">
             <Image
               src={"/assets/images/techcrunch.svg"}
@@ -90,7 +91,7 @@ const Press = () => {
           </div>
         </div>
       </div>
-      <div className="text-sm flex gap-2 items-center text-grey2 md:hidden">
+      <div className="text-sm flex gap-2 items-center text-grey2 md:hidden press-card">
         See all <ArrowRight size={14} />
       </div>
     </div>

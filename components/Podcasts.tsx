@@ -6,22 +6,23 @@ const Podcasts = () => {
   return (
     <div className=" flex flex-col items-center gap-5  w-full p-5 max-w-210 m-auto">
       <div className="flex items-end justify-between w-full p-5">
-        <h2 className="text-3xl md:text-4xl text-center md:w-auto w-full flex items-start justify-center gap-3">
+        <h2 className="sec9-title text-3xl md:text-4xl text-center md:w-auto w-full flex items-start justify-center gap-3">
           <Image
             src={"/assets/images/stars5.png"}
             width={30}
             height={30}
             alt="press"
+            className="star9"
           />
           Podcasts{" "}
         </h2>
-        <div className="text-sm hidden md:flex gap-2 items-center text-grey2">
+        <div className="sec9-title text-sm hidden md:flex gap-2 items-center text-grey2">
           See all <ArrowRight size={14} />
         </div>
       </div>
       <div className=" w-full grid p-5  gap-5 md:grid-cols-3 place-items-center items-stretch">
         {/* card 1 */}
-        <div className=" bg-grey border-grey3 border-2 max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
+        <div className="podcast-card bg-grey border-grey3 border-2 max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
           <div className="flex flex-col gap-2 mb-2">
             <Image
               src={"/assets/images/pomp.png"}
@@ -43,7 +44,7 @@ const Podcasts = () => {
         </div>
 
         {/* card 2 */}
-        <div className=" bg-grey border-grey3 border-2  max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
+        <div className="podcast-card bg-grey border-grey3 border-2  max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
           <div className="flex flex-col gap-2 mb-2">
             <Image
               src={"/assets/images/unstoppable.png"}
@@ -66,7 +67,7 @@ const Podcasts = () => {
         </div>
 
         {/* card 3 */}
-        <div className="bg-grey border-grey3 border-2 max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
+        <div className="podcast-card bg-grey border-grey3 border-2 max-w-90 p-5 rounded-xl text-sm flex flex-col justify-between gap-2 font-medium text-pretty">
           <div className="flex flex-col gap-2 mb-2">
             <Image
               src={"/assets/images/zima.png"}
@@ -87,7 +88,7 @@ const Podcasts = () => {
           </div>
         </div>
       </div>
-      <div className="text-sm flex gap-2 items-center text-grey2 md:hidden">
+      <div className="text-sm flex gap-2 items-center text-grey2 md:hidden podcast-card">
         See all <ArrowRight size={14} />
       </div>
     </div>

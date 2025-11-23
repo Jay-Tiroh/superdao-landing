@@ -4,13 +4,13 @@ import Btn from "./Btn";
 const Section3 = () => {
   return (
     <div className="text-center flex flex-col items-center gap-5 max-w-210 m-auto p-5 select-none">
-      <h2 className="text-3xl md:text-4xl flex items-end justify-center gap-2 h-15">
+      <h2 className="text-3xl md:text-4xl flex items-end justify-center gap-2 h-15 sec3-title">
         <Image
           src={"/assets/images/stars3.png"}
           width={30}
           height={30}
           alt="press"
-          className="w-10 self-start"
+          className="w-10 self-start star3"
         />
         All the tools in one app
       </h2>
@@ -26,9 +26,9 @@ const Section3 = () => {
         width={2500}
         height={2500}
         alt="section image"
-        className=" w-10/12 max-w-200"
+        className=" w-10/12 max-w-200 sec3-img"
       />
-      <Btn className="cta flex items-center justify-center bg-yellow2/15 text-yellow2 font-medium text-sm gap-1 p-2 px-5 cursor-pointer rounded-md">
+      <Btn className="sec3-cta flex items-center justify-center bg-yellow2/15 text-yellow2 font-medium text-sm gap-1 p-2 px-5 cursor-pointer rounded-md">
         <Image
           src={"/assets/images/youtube2.svg"}
           width={100}

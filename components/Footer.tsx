@@ -17,18 +17,20 @@ const Footer = () => {
           alt="Logo"
           width={100}
           height={100}
-          className="w-32"
+          className="w-32 footer-item"
         />
         <div className="flex justify-between items-center p-6 font-medium text-sm ">
           <div className="flex gap-8">
-            <Link href="#" className="nav-link">
+            <Link href="#" className="nav-link footer-item">
               About
             </Link>
-            <Link href="#" className="nav-link">
+            <Link href="#" className="nav-link footer-item">
               Jobs
             </Link>
             <Popover>
-              <PopoverTrigger className="nav-link">Legal</PopoverTrigger>
+              <PopoverTrigger className="nav-link footer-item">
+                Legal
+              </PopoverTrigger>
               <PopoverContent className="text-xs bg-grey/70 flex flex-col p-0!  text-white/90 w-fit">
                 <div className="flex items-center gap-1  p-2 hover:bg-grey2/20 w-full">
                   <Image

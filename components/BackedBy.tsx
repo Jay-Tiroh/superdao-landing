@@ -18,14 +18,14 @@ const BackedBy = () => {
   ];
   return (
     <div className="text-center flex flex-col items-center gap-5  w-full p-5">
-      <h2 className="text-3xl md:text-4xl flex items-start gap-3">
+      <h2 className=" sec7-title text-3xl md:text-4xl flex items-start gap-3">
         Backed By
         <Image
           src={"/assets/images/stars5.png"}
           width={30}
           height={30}
           alt="stars"
-          className=" rotate-y-180"
+          className=" rotate-y-180 star7"
         />
       </h2>
       <InfiniteSlider

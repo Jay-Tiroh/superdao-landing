@@ -39,12 +39,12 @@ const Navbar = () => {
             alt="Logo"
             width={100}
             height={100}
-            className="w-32"
+            className="w-32 nav-item"
           />
           <motion.div
             whileHover={{ scale: 1.0 }}
             whileTap={{ scale: 0.9 }}
-            className="outline-0!"
+            className="outline-0! nav-item"
             onClick={() => setIsOpen((prev) => !prev)}
           >
             {isOpen ? (
@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="nav-content w-full flex justify-center gap-4 absolute top-20 bg-bg/80 pb-10 p-5 z-99 shadow-2xl">
+          <div className="nav-item nav-content w-full flex justify-center gap-4 absolute top-20 bg-bg/80 pb-10 p-5 z-99 shadow-2xl">
             <div className="nav-content w-full max-w-lg flex flex-col gap-4 ">
               <motion.div
                 whileHover={{ scale: 1.0 }}
@@ -178,27 +178,27 @@ const Navbar = () => {
           alt="Logo"
           width={100}
           height={100}
-          className="w-32"
+          className="w-32 nav-item"
         />
         <div className="flex gap-8">
-          <Link href="#" className="nav-link">
+          <Link href="#" className="nav-link nav-item">
             Product
           </Link>
-          <Link href="#" className="nav-link">
+          <Link href="#" className="nav-link nav-item">
             Use cases
           </Link>
-          <Link href="#" className="nav-link">
+          <Link href="#" className="nav-link nav-item">
             Learn
           </Link>
-          <Link href="#" className="nav-link">
+          <Link href="#" className="nav-link nav-item">
             About
           </Link>
-          <Link href="#" className="nav-link">
+          <Link href="#" className="nav-link nav-item">
             Jobs
           </Link>
         </div>
 
-        <Btn className="btn px-5 p-2 text-xs bg-white/10 backdrop-blur-md rounded-lg hover:bg-white/20 transition-colors duration-150 cursor-pointer">
+        <Btn className="btn px-5 p-2 text-xs bg-white/10 backdrop-blur-md rounded-lg hover:bg-white/20 transition-colors duration-150 cursor-pointer nav-item">
           Login
         </Btn>
       </div>
